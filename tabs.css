@@ -1,0 +1,60 @@
+﻿/* YOC_Ajax_Tab_Theme theme */
+.YOC_Ajax_Tab_Theme .ajax__tab_header 
+{
+    font-family:arial,helvetica,clean,sans-serif;
+    background:url(images/TabImages/tab-line.png) repeat-x bottom;   
+    height:22PX ;
+    font-size:10pt;
+    display:block;
+        
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_header .ajax__tab_outer 
+{
+    background:url(images/TabImages/strip.gif) repeat-x left top;        
+    border-color:#222;
+    color:#222;
+    padding-left:5px;
+    margin:0px 0.25em 0px 0px;
+	border:solid 1px SteelBlue;	
+	border-bottom-width:0px;
+	
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_header .ajax__tab_inner 
+{
+    background:url(images/TabImages/strip.gif) no-repeat right top;
+    border-color:#666;
+    color:White;
+    font:bold 10pt Arial;    
+    padding:3px 4px 2px 0px;
+   
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_hover .ajax__tab_inner 
+{
+    color:White;
+    font:bold 10pt;    
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_active .ajax__tab_outer 
+{
+    background:url(images/TabImages/strip.gif) White repeat-x 0pt -40px;        
+    border-bottom-color:#ffffff;
+    
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_active .ajax__tab_inner 
+{
+    background:url(images/TabImages/strip.gif) no-repeat right -40px;
+    color:#000000;
+    font:bold 10pt ;
+    border-color:#333;
+          
+}
+.YOC_Ajax_Tab_Theme .ajax__tab_body 
+{
+    font-family:verdana,tahoma,helvetica;
+    font-size:10pt;
+    padding:8px;
+    background-color:#ffffff;
+    border:solid 1px SteelBlue;
+    border-top-width:0;
+}
+
+ 
